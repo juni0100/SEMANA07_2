@@ -1,0 +1,13 @@
+.contenedor__video, .contenedor__iframe{
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    border:15px solid rgb(1, 2, 218); 
+}
+.contenedor__video .video, .contenedor__iframe .iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*ajusta todo el tamaño para cubrir el fondo del contenido*/
+
+
+}
